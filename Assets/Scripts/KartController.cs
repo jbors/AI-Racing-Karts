@@ -14,7 +14,7 @@ public class KartController : MonoBehaviour
    public Transform kartNormal;
    public Rigidbody sphere;
    
-   float speed, currentSpeed;
+   public float speed, currentSpeed;
    float rotate, currentRotate;
 
    [Header("Parameters")]

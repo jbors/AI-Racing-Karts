@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1665030736",
+        "python_version": "3.8.14 (default, Sep  6 2022, 23:17:06) \n[Clang 13.1.6 (clang-1316.0.21.2.5)]",
+        "command_line_arguments": "/Users/jorisborsboom/git/intuitlab/mlagents_env_38/bin/mlagents-learn Kart Agent.yaml --run-id=Test1",
+        "mlagents_version": "0.29.0.dev0",
+        "mlagents_envs_version": "0.29.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.2",
+        "numpy_version": "1.23.3",
+        "end_time_seconds": "1665030796"
+    },
+    "total": 60.62835475,
+    "count": 1,
+    "self": 0.004643624999999929,
+    "children": {
+        "run_training.setup": {
+            "total": 0.029229625000000148,
+            "count": 1,
+            "self": 0.029229625000000148
+        },
+        "TrainerController.start_learning": {
+            "total": 60.5944815,
+            "count": 1,
+            "self": 9.091700000851688e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.594334124999996,
+                    "count": 1,
+                    "self": 60.594334124999996
+                },
+                "TrainerController._save_models": {
+                    "total": 5.6457999995984665e-05,
+                    "count": 1,
+                    "self": 5.6457999995984665e-05
+                }
+            }
+        }
+    }
+}
