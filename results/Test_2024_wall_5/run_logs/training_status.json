@@ -1,0 +1,38 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499476,
+                "file_path": "results/Test_2024_wall_5/KartAgent/KartAgent-499476.onnx",
+                "reward": -13.73654192686081,
+                "creation_time": 1731491440.736234,
+                "auxillary_file_paths": [
+                    "results/Test_2024_wall_5/KartAgent/KartAgent-499476.pt"
+                ]
+            },
+            {
+                "steps": 607490,
+                "file_path": "results/Test_2024_wall_5/KartAgent/KartAgent-607490.onnx",
+                "reward": -10.709916591644287,
+                "creation_time": 1731491628.967819,
+                "auxillary_file_paths": [
+                    "results/Test_2024_wall_5/KartAgent/KartAgent-607490.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 607490,
+            "file_path": "results/Test_2024_wall_5/KartAgent.onnx",
+            "reward": -10.709916591644287,
+            "creation_time": 1731491628.967819,
+            "auxillary_file_paths": [
+                "results/Test_2024_wall_5/KartAgent/KartAgent-607490.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

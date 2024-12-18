@@ -71,4 +71,20 @@ public class CheckpointManager : MonoBehaviour
             
         }
     }
+
+    protected void OnTriggerEnter(Collider other)
+    {
+        Debug.unityLogger.Log("Collision with " + other.tag);
+        if (other.CompareTag("Wall"))
+        {
+            // Apply a negative reward for hitting the wall
+            kartAgent.AddReward(-0.001f);
+            Debug.Log("Collision with wall! Negative reward applied.");
+            //Debug.unityLogger.Log("Collision with wall! Negative reward applied.");
+
+            // Optional: End the episode if wall collisions are critical failures
+            // EndEpisode();
+        }
+    }
+
 }
